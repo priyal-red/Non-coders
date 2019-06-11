@@ -1,0 +1,11 @@
+1. how to show history with date and time?
+
+HISTTIMEDATEFORMAT="%d/%m/%y %T"
+echo 'export HISTTIMEFORMAT ="%d/%m/%y %T"'
+step3: ~/.bash_profile
+
+2. How to update history manually in /home/adhoc/bash.history(without reboot)?
+
+step1: shopt -s histappend
+step2: PROMPT_COMMAND="history -a;PROMPT_COMMAND"
+
