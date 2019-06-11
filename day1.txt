@@ -1,0 +1,20 @@
+1.Change moniter place from desktop to downloads?
+
+step1. go to home
+step2. press ctrl h
+step3. open .config directory
+step4. select user-dirs.dirs
+step5. change the entry
+ XDG_DESKTOP_DIR="$HOME/Desktop"
+  to
+XDG_DESKTOP_DIR="$HOME/Downloads"
+
+
+2.Create 500 folders in windows using cmd
+
+: for /l %i in(0,1,500) do md 00%i
+
+
+3 cal 9 1752 why day 3 to 13 are missing?
+
+ Julian calender was 11 days behind Gagolian calender.Julian calender was replaced by Gagolian calender in 1752, as a result 11 days were lost. 
